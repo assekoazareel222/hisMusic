@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>hismusicinstitut</title>
+    <style></style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="text">Identification</div>
+      <form
+        action="https://sheetdb.io/api/v1/n8jh516yukhpv"
+        method="post"
+        id="sheetdb-form"
+      >
+        <div class="form-row">
+          <div class="input-data">
+            <input type="text" id="nom" name="nom" required /><br />
+            <div class="underline"></div>
+            <label for="nom">Nom:</label>
+          </div>
+          <div class="input-data">
+            <input type="text" id="prenom" name="prenom" required /><br />
+            <div class="underline"></div>
+            <label for="prenom">Prénom:</label>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="input-data">
+            <input
+              type=""
+              id="NumeroDeTelephone"
+              name="NumeroDeTelephone"
+              required
+            /><br />
+            <div class="underline"></div>
+            <label for="NumeroDeTelephone">Numéro de téléphone:</label>
+          </div>
+          <div class="input-data">
+            <input type="text" id="Pays" name="Pays" /><br />
+
+            <div class="underline"></div>
+            <label for="Pays">Pays:</label>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="input-data textarea">
+            <input
+              type="email"
+              id="adresseMail"
+              name="adresseMail"
+              required
+            /><br />
+            <br />
+            <div class="underline"></div>
+            <label for="adresseMail">Adresse Mail:</label>
+
+            <br />
+          </div>
+        </div>
+        <div class="form-row submit-btn">
+          <div class="input-data">
+            <div class="inner"></div>
+            <input type="submit" value="ENVOYÉ" />
+          </div>
+        </div>
+      </form>
+    </div>
+    <script defer src="main.js"></script>
+  </body>
+</html>
